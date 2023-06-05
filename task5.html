@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title> Task5 </title>
+
+        <style>
+            ul
+            {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: lightgrey;
+            }
+            li
+            {
+                float: left;
+                border-right: 1px solid black;
+            }
+            li a 
+            {
+                display: block;
+                color: blue;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            li a:hover:not(.active) 
+            {
+                background-color: orange;
+            }
+            .active 
+            {
+                color: white;
+                background-color: gray;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <h1> Vertical Navigation Bar </h1>
+
+        <ul>
+            <li><a class="active" href="#"> HOME </a></li>
+            <li><a href="#"> JAVA </a></li>
+            <li><a href="#"> CSS </a></li>
+            <li><a href="#"> HTML </a></li>
+            <li><a href="#"> BOOTSTRAP </a></li>
+        </ul>
+    </body>
+
+</html>
